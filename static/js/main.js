@@ -41,10 +41,10 @@ $(function () {
         $(protext).animate({fontWeight:'normal',fontSize:'16px'})
     })
     //Overlay images
-    $('.portimg').hover(function(){
-        $('.porttext',this).slideToggle('slow');
+    $('.portfolio').hover(function(){
+        $('.port',this).slideToggle('slow');
      }, function(){
-        $('.porttext',this).slideToggle('slow');
+        $('.port',this).slideToggle('slow');
      });
     //Form Validation
         $("form#form").on('submit',function(event){
