@@ -56,3 +56,16 @@
    .what h4{
      font-weight: 700;
    }
+
+   .portfolio{
+    width: 80%;
+    margin: 2em auto;
+    text-align: center;
+  }
+ .portfolio h2{
+   margin-bottom: 1.5em;
+ }
+  .portfolio .col-3 img{
+    display: block;
+    width: 100%;
+  }
