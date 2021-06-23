@@ -69,3 +69,16 @@
     display: block;
     width: 100%;
   }
+
+  .contact{
+    background-image: url("../images/assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  .contact h2{
+   margin-top: 2em;
+  }
