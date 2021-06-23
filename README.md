@@ -17,7 +17,8 @@
     -Use Bootstrap and jQuery to recreate a landing page for a fictional studio
   
 ## Live link
-   -  [Delani Studio](https://github.com/Mosesvalei/Delani-Studio)
+   -  [Delani Studio](https://mosesvalei.github.io/Delani-Studio/)
+   
 ​
 ## Technologies used
     - HTML
