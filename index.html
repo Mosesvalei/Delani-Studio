@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/bootstrap.css">
-    <link rel="stylesheet" href="static/js/jQuery.js">
+    <script src="static/js/jQuery.js"></script>
     <link rel="stylesheet" href="static/css/style.css">
     <title>Delani Studio</title>
 </head>
@@ -35,19 +35,25 @@
            <div class="what-we-do">
             <div class="design">
               <h4>DESIGN</h4>
-              <img src="static/images/assets/services_icons/design_icon.png" alt="design">
+              <img id="destxt" src="static/images/assets/services_icons/design_icon.png" alt="design">
+              <p class="desp">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+             <p class="desp">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
             </div>
-            <div class="development">
+                        <div class="development">
               <h4>DEVELOPMENT</h4>
-              <img src="static/images/assets/services_icons/dev_icon.png" alt="development">
+              <img id="devtext" src="static/images/assets/services_icons/dev_icon.png" alt="development">
+              <p class="devp"> All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+            <p class="devp"> They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
             </div>
             <div class="product-management">
               <h4>PRODUCT MANAGEMENT</h4>
-              <img src="static/images/assets/services_icons/product_icon.png" alt="product">
+              <img id="protext" src="static/images/assets/services_icons/product_icon.png" alt="product">
+              <p class="prop">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. </p>
+            <p class="prop">This iterative process allows for changes as business requirements evolve.</p>
             </div>
           </div>
            </div>
-           <div class="portfolio">
+        <div class="portfolio">
             <h2>PORTFOLIO</h2>
             <div class="row">
               <div class="col-3">
@@ -78,6 +84,32 @@
             </div>
           </div>
        </div>
+       <div class="contacts">
+        <div class="contact-overlay">
+        <h1 class="text-center text-white b-text">CONTACT US</h1><br>
+        <div class="col-md-12 input">
+            <form id="form">
+                <div class="row">
+                    <div class="col-md-2 form"></div>
+                    <input class="col-md-4 form-control name" type="text" id="name" name="name" placeholder="Name..."
+                           required><br><br>
+                    <input class="col-md-4 form-control email" type="email" id="email" name="email" placeholder="Email..."
+                           required>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row input">
+                    <div class="col-md-2"></div>
+                    <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
+                              placeholder="Your message here..."></textarea>
+                    <div class="col-md-2"></div>
+                </div>
+                <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+                <br>
+            </form>
+        </div>
+         </div>
+      </div>
        <div class="social">
         <img src="static/images/assets/social_icons/twitter.png" alt="twitter">
         <img src="static/images/assets/social_icons/dribble.png" alt="dribble">
@@ -88,7 +120,7 @@
         <img src="static/images/assets/social_icons/behance.png" alt="behance">
         <img src="static/images/assets/social_icons/pinterest.png" alt="pinterest">
         <img src="static/images/assets/social_icons/flickr.png" alt="flickr">
-        <h3>DELANIE STUDIO <br>2019</h3>
+        <h3>DELANI STUDIO <br>2019</h3>
       </div>
       </div>
 <script src="static/js/main.js"></script>

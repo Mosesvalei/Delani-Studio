@@ -69,3 +69,50 @@
     display: block;
     width: 100%;
   }
+  .contacts{
+    background-image: url("../images/assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+      }
+  .email{
+   background-color: transparent;
+   width: 60%;
+  }
+  .email::placeholder{
+    color: white;
+  }
+  .name{
+    background-color: transparent;
+    width: 60%;
+   }
+   .name::placeholder{
+     color: white;
+   }
+   /* textarea{
+     background-color: transparent;
+     border: 2px solid white;
+   }
+   textarea::placeholder{
+    color: white;
+  } */
+   .social{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25em;
+  padding-top: 2.2em;
+}
+
+.input h2{
+  text-align: center;
+ }
+ .form-control::placeholder{
+   color: white;
+ }
+ .form-control{
+background-color: transparent;
+border: 2px solid white;
+ }
